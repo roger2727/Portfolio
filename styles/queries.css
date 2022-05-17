@@ -1,0 +1,66 @@
+@media (max-width: 925px) {
+  .nav-a {
+    padding-top: 10px;
+    font: 500 18px "Lato", sans-serif;
+  }
+  .nav-a:hover {
+    background-image: none;
+    padding: 0;
+  }
+  .background {
+    height: 650px;
+    width: 100%;
+    flex-direction: column;
+    padding: 2rem 3rem 2rem 3rem;
+    gap: 2rem;
+  }
+  .pic {
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .header {
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .social-links {
+    display: none;
+  }
+  .testimonial-text {
+    font-size: 1rem;
+  }
+  .cards {
+    width: 100%;
+  }
+}
+
+@media (min-width: 40rem) {
+  .cards {
+    width: 100%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+  .header {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .hero {
+    width: max-content;
+    /* padding-top: 20px; */
+  }
+  .social-links-footer {
+    display: none;
+  }
+}
