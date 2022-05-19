@@ -1,4 +1,18 @@
 @media (max-width: 925px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .direct-contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-list {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
   .nav-a {
     padding-top: 10px;
     font: 500 18px "Lato", sans-serif;
