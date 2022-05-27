@@ -128,7 +128,7 @@
   width: 20rem;
   height: 80%;
   border-radius: 8px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(255, 255, 255, 0.487) 0px 5px 15px;
 }
 
 .testimonial-text {
@@ -224,18 +224,19 @@
   background-color: #0f2027;
 }
 
-.card_image {
+.card_image{
   height: 100%;
   width: 100%;
   vertical-align: middle;
 }
+
 
 .card_btn {
   text-decoration: none;
   text-align: center;
   color: white;
   padding: 0.8rem;
-  margin-bottom: 10px;
+  
 
   font: 400 20px "Lato", sans-serif;
   letter-spacing: 1.9px;
@@ -246,11 +247,12 @@
   cursor: pointer;
   border: none;
   background: #f78256;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .card_btn:hover {
   background: linear-gradient(-45deg, #ed1c94, #ffec17);
+  box-shadow: rgba(248, 248, 247, 0.471) 0px 5px 15px;
 }
 
 .cards {
@@ -268,22 +270,32 @@
 
 .card {
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  
   display: flex;
   flex-direction: column;
   overflow: hidden;
+
+}
+.card:hover{
+  box-shadow: rgba(255, 255, 255, 0.487) 0px 5px 15px;
+
 }
 
 .card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding: 3rem;
   background-image: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
 }
 
 .card_title {
+  text-decoration: none;
   font: 300 20px "Lato", sans-serif;
   letter-spacing: 1.9px;
   text-transform: uppercase;
   color: white;
+  
 }
 
 .card_text {
